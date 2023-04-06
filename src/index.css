@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.my-container{
+    @apply sm:max-w-lg md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 mx-auto my-16;
+
+}
+.btn {
+    @apply 
+    bg-blue-600 
+    px-6
+    text-white
+    h-12
+    rounded
+    shadow-md
+    hover:bg-blue-700
+    duration-300
+}
+.badge{
+    @apply
+    inline-block
+    px-3
+    bg-yellow-400
+    py-px
+    mb-3 rounded-full tracking-wider uppercase
+}
